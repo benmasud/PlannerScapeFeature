@@ -4,17 +4,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 import javafx.scene.control.TextField;
-import javafx.scene.control.*;
 import javafx.scene.control.PasswordField;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class Controller {
+public class LogInController {
     @FXML
     private Button enterButton; // log in button
     @FXML

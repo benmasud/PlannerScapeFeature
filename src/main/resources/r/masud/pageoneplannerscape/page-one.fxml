@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="r.masud.pageoneplannerscape.Controller">
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="606.0" style="-fx-background-color: F3D5C0;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="142.0" layoutY="216.0" text="Get things done with PlannerScape">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="154.0" layoutY="239.0" prefHeight="20.0" prefWidth="308.0" text="Manage you task with PlannerScape. Organize all ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="169.0" layoutY="258.0" prefHeight="20.0" prefWidth="266.0" text="your to-do’s in lists and projects. Tag them">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="200.0" layoutY="276.0" prefHeight="20.0" prefWidth="202.0" text="to set priorities and categories.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="196.0" fitWidth="319.0" layoutX="148.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image_2022-12-29_09-12-08.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="getStartedButtom" layoutX="199.0" layoutY="313.0" mnemonicParsing="false" onAction="#getStartedOnAction" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: BLACK;" text="Get Started" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="201.0" layoutY="354.0" prefHeight="20.0" prefWidth="133.0" text="Want to switch the language?">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="337.0" layoutY="354.0" text="En">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="354.0" layoutY="354.0" text="Ru">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

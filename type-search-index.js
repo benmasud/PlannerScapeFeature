@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"r.masud.plannerscapefeature","l":"DatabaseConnection"},{"p":"r.masud.plannerscapefeature","l":"Login"},{"p":"r.masud.plannerscapefeature","l":"LogInController"}];updateSearchResults();
